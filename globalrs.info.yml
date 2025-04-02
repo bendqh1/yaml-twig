@@ -1,22 +1,12 @@
 name: globalrs
 type: theme
-core_version_requirement: ^9 || ^10
+core_version_requirement: ^9 || ^10 || ^11 || ^12
 description: Global resources
-base theme: olivero
+base theme: BASE_THEME_NAME_COMES_HERE_AND_THIS_MAY_CHANGE_THROUGH_VERSIONS_OF_DRUPAL
 libraries:
   - globalrs/resources
 
 regions:
   header: Header
-  primary_menu: 'Primary menu'
-  secondary_menu: 'Secondary menu'
-  hero: 'Hero (full width)'
-  highlighted: Highlighted
-  breadcrumb: Breadcrumb
-  social: Social Bar
-  content_above: Content Above
-  content: Content
-  sidebar: 'Sidebar'
-  content_below: 'Content Below (Flex Layout)'
-  footer_top: 'Footer Top (Flex Layout)'
-  footer_bottom: 'Footer Bottom'
+  middle: Middle
+  footer: Footer
