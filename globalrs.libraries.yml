@@ -6,6 +6,7 @@ resources:
       root.css: {}
       reset.css: {}
       style.css: {}
+      language.css: {}
 
       header.css: {}
       middle.css: {}
